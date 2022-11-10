@@ -14,5 +14,5 @@ if($_GET["a"] == 0){
     file_put_contents($filename,$put);
     
 }
-
+//test
 ?>

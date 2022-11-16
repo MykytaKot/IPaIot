@@ -46,7 +46,7 @@
 ?>
            
 <div class="block" style="margin-top:20px;">
-    <div class="city" style="padding: 5%; ">
+    <div class="city" style="padding: 5%;  max-width:90%;">
         
         <div class="flex" style="justify-content: center;">
 
@@ -76,11 +76,10 @@
         </div>
         <div class="flex" style="justify-content: center;">
 
-            <p class="main">Small description : <input class="input_text" type="text" id ="url" name="small" placeholder="small description" required></p>
+        <label for="url">Small description :</label> <input class="input_text" type="text" id ="url" name="small" placeholder="small description" required>
 
 
-        </div>
-        <div class="flex" style="justify-content: center;">
+      
 
             <label for="keywords">Choose keyword:</label>
             <input list="keywordsL" class="input_text" id="keywords" placeholder="Enter keyword" name="keywords" required>
@@ -95,7 +94,7 @@
         </div>
         <div class="flex" style="justify-content: center; ">
 
-            <p class="main">Responce : <textarea name="response" id="textarea" style="resize: vertical;" class="input_text" placeholder="your response" cols="50" rows="2" required></textarea></p>
+            <label for="textarea">Responce :</label> <textarea name="response" id="textarea"   class="input_text" placeholder="your response"cols="30"  rows="2" required></textarea>
 
         </div>
         <div class="flex city_main">
@@ -131,7 +130,7 @@ foreach($files as $file) {
     
     
         <div class="block" >
-        <div class="city" style="padding: 5%; width:50%">
+        <div class="city responce" style="padding: 5%; ">
         <div class="flex" style="justify-content: center;">
              <p class="main">Response - <?= $content->name.' / '.$content->email?></p>
         </div>

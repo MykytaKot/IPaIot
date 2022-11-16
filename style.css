@@ -26,7 +26,9 @@ a {
 .flex ol{
     display: none;
 }
-
+.responce{
+    width:50%
+}
 .footer {
     padding-top: 20px;
     margin-top: 20px;
@@ -353,7 +355,9 @@ th{
         margin-top: 30vh;
        
     }
-    
+    .responce{
+    width:80%
+}
     
 }
 
